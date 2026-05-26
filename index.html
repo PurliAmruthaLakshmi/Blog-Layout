@@ -1,72 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Modern Blog Layout</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>BlogSphere</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
-<header class="header">
-  <h1>MyBlog</h1>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Articles</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
+<header>
+
+<nav>
+<div class="logo">BlogSphere</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Blogs</a></li>
+<li><a href="#">Categories</a></li>
+<li><a href="#">About</a></li>
+</ul>
+
+<div class="search-box">
+<input type="text" id="searchInput"
+placeholder="Search blogs...">
+</div>
+
+</nav>
+
 </header>
 
+
 <section class="hero">
-  <h2>Featured Post</h2>
-  <p>How to build modern websites using only HTML & CSS</p>
+
+<div class="hero-content">
+<h1>Discover Amazing Stories</h1>
+<p>Explore ideas, technology, lifestyle and more</p>
+<button>Explore Blogs</button>
+</div>
+
 </section>
 
-<main class="container">
 
-  <section class="posts">
-    <article class="card">
-      <h3>Understanding CSS Grid</h3>
-      <p>A guide to mastering modern layouts...</p>
-      <a href="#">Read More</a>
-    </article>
+<div class="container">
 
-    <article class="card">
-      <h3>Flexbox Made Easy</h3>
-      <p>Learn how Flexbox simplifies UI design...</p>
-      <a href="#">Read More</a>
-    </article>
+<main class="blog-container">
 
-    <article class="card">
-      <h3>Responsive Design Tips</h3>
-      <p>Make your websites look great on all devices...</p>
-      <a href="#">Read More</a>
-    </article>
-  </section>
+<div class="card">
+<img src="https://picsum.photos/400/250?1">
+<h2>Future of Artificial Intelligence</h2>
+<p>Learn how AI is transforming industries...</p>
+<button>Read More</button>
+</div>
 
-  <aside class="sidebar">
-    <h3>Categories</h3>
-    <ul>
-      <li>Web Design</li>
-      <li>Frontend</li>
-      <li>UI/UX</li>
-      <li>CSS</li>
-    </ul>
+<div class="card">
+<img src="https://picsum.photos/400/250?2">
+<h2>Web Development Trends</h2>
+<p>Latest technologies in web development...</p>
+<button>Read More</button>
+</div>
 
-    <h3>Recent Posts</h3>
-    <ul>
-      <li>10 CSS Tricks</li>
-      <li>HTML Best Practices</li>
-      <li>UI Design Basics</li>
-    </ul>
-  </aside>
+<div class="card">
+<img src="https://picsum.photos/400/250?3">
+<h2>Travel Around The World</h2>
+<p>Best places you should visit in 2026...</p>
+<button>Read More</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/250?4">
+<h2>Healthy Lifestyle Tips</h2>
+<p>Simple habits for better living...</p>
+<button>Read More</button>
+</div>
 
 </main>
 
-<footer class="footer">
-  <p>© 2026 MyBlog. All rights reserved.</p>
+
+<aside>
+
+<h3>Categories</h3>
+
+<ul>
+<li>Technology</li>
+<li>Travel</li>
+<li>Health</li>
+<li>Food</li>
+<li>Education</li>
+
+</ul>
+
+</aside>
+
+</div>
+
+
+<footer>
+
+<p>© 2026 BlogSphere | All Rights Reserved</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+
+</div>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
